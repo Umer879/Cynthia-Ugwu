@@ -1,0 +1,83 @@
+@media screen  and (max-width: 790px) {
+   #secondPage{
+    width: 92%;
+    padding: 12vw 0;
+   }
+   #thirdPage{
+    margin: 10vw 0;
+    padding: 0;
+   }
+   .about{
+    line-height: 1.150;
+    font-size: 17px;
+   }
+}
+@media screen and (min-width: 576px) and (max-width: 650px) {
+    #thirdPage .image img{
+        width: 150px;
+        height: 150px;
+      }
+      .about{
+        width: 50vw;
+      }
+      #footer .firstFoot{
+        width: fit-content;
+      }
+      #footer .secondFoot{
+        gap: 10px 4px;
+      }
+      #footer .firstFoot p:first-child{
+        margin-right: 20px;
+      }
+      #footer .secondFoot a{
+        font-size: 16px;
+      }
+}
+@media screen and (min-width: 300px) and (max-width: 575px) {
+  #nav{
+    height: 12vh;
+  }
+  #heading h1{
+    font-size: 15vw;
+  }
+  #heroFooter a{
+    font-size: 14px;
+  }
+  #heroFooter #iconSet{
+    display: none;
+  }
+  .view{
+    padding: 7px 16px;
+    font-size: 14px;
+  }
+
+  #thirdPage .intro{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0;
+  }
+  #thirdPage .image img{
+    width: 150px;
+    height: 150px;
+  }
+  .about{
+    width: 100%;
+    font-size: 16px;
+  }
+  #footer{
+    font-size: 12px;
+  }
+  #footer .secondFoot{
+    gap: 10px 0px;
+  }
+  #footer .firstFoot{
+    width: fit-content;
+  }
+  #footer .firstFoot p:first-child{
+    margin-right: 10px;
+  }
+  #footer .secondFoot a{
+    font-size: 13px;
+  }
+}

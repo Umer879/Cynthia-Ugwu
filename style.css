@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+
+}
+.mini-circle{
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999999;
+  transition: all cubic-bezier(0.23, 1, 0.320, 1) 0.5s;
+}
+#main {
+  width: 100%;
+  background-color: black;
+  padding: 0 30px;
+}
+#hero {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  height: 17vh;
+  align-items: center;
+  background-color: black;
+}
+#nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+#nav h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+}
+#heading {
+  margin-top: 40px;
+}
+.bounding{
+  width: fit-content;
+  overflow: hidden;
+}
+.bounding .boundingElem{
+  transform: translateY(100%);
+}
+#heading h1 {
+  text-transform: uppercase;
+  font-size: 10vw;
+  font-weight: 500;
+  line-height: 1;
+  color: silver;
+}
+#heading .secondHeading {
+  margin-left: 9vw;
+}
+
+#headPart {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+#headPart h5 {
+  text-align: end;
+  text-transform: uppercase;
+}
+#smallHeading {
+  margin: 80px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+#smallHeading h5 {
+  text-align: right;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#heroFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 4px;
+}
+#heroFooter a {
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 530;
+}
+#iconSet {
+  display: flex;
+  gap: 5px;
+}
+#iconSet .circle {
+  background-color: silver;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.circle i {
+  font-size: 20px;
+  color: black;
+}
+#secondPage{
+  margin-top: 7vw;
+  color: silver;
+  width: 88%;
+}
+.element-1{
+  padding: 3.5vw 0;
+  border-top: 1px solid #888;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.element-1 h1{
+  font-weight: 500;
+  font-size: 6vw;
+  color: silver;
+  text-transform: uppercase;
+}
+.element-5{
+  border-bottom: 1px solid #888;
+}
+ .view{
+  margin-top: 5vw;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 24px;
+  transition: background 0.5s, color 0.5s;
+  
+}
+.element-1 img{
+  height: 100%;
+  opacity: 0;
+  z-index: 999;
+  position: absolute;
+}
+.view sup{
+  color: #888;
+}
+ .view:hover{
+  background: white;
+  color: black;
+}
+#thirdPage {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding:4vw 70px 0 0;
+}
+.intro{
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+  gap: 7vw;
+}
+#thirdPage .image img{
+  width: 250px;
+  height: 250px;
+}
+.about{
+  width: 40vw;
+  line-height: 1.5;
+  font-size: 22px;
+}
+.about p:first-child{
+  color: #888;
+}
+.about p:nth-child(2){
+  color: white;
+}
+.aboutBtn{
+  margin-top: 20px;
+}
+.subscribe{
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+}
+.subscribe p:first-child{
+  font-weight: 600;
+  font-size: 17px;
+  color: #888;
+}
+.subscribe p:nth-child(2){
+  font-size: 18px;
+}
+#footer{
+  width: 100%;
+  height: 18vh;
+  color: #fff;
+  margin-top: 6vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+#footer .firstFoot{
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+}
+#footer .firstFoot p{
+  font-size: 18px;
+}
+#footer .secondFoot a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+#footer .secondFoot{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 40vw;
+}
