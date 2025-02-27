@@ -40,8 +40,8 @@
   #heading h1{
     font-size: 15vw;
   }
-   #heroFooter {
-    bottom: 100px;
+ #hero{
+    height: 80vh;
   }
   #heroFooter a{
     font-size: 14px;
