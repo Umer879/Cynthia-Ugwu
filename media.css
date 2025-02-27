@@ -41,6 +41,7 @@
     font-size: 15vw;
   }
  #hero{
+    background-color: red;
     height: 80vh;
   }
   #heroFooter a{
