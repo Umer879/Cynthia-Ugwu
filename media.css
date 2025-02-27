@@ -40,6 +40,9 @@
   #heading h1{
     font-size: 15vw;
   }
+   #heroFooter {
+    bottom: 100px;
+  }
   #heroFooter a{
     font-size: 14px;
   }
@@ -79,5 +82,10 @@
   }
   #footer .secondFoot a{
     font-size: 13px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mini-circle{
+    display: none;
   }
 }
